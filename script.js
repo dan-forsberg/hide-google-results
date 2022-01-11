@@ -11,8 +11,10 @@
 (function () {
   "use strict";
   const blockedSites = [
-      "https://pretagteam.com",
-      "https://www.codegrepper.com"
+    "https://pretagteam.com",
+    "https://www.codegrepper.com",
+    "https://geeksqa.com",
+    "https://www.adoclib.com",
   ];
 
   let count = 0;
@@ -24,5 +26,5 @@
     });
   });
 
-  console.log(`Removed ${count} results.`)
+  console.log(`Removed ${count} results.`);
 })();
